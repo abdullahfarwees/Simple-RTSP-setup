@@ -9,6 +9,7 @@ This guide will help you set up a local RTSP server in just one minute. The serv
 - [FFmpeg](https://ffmpeg.org/download.html)
 - [VLC Player](https://www.videolan.org/vlc/)
 
+
 ## Instructions
 
 ### Step 1: Save the Batch Script
@@ -56,9 +57,13 @@ Double-click `StartServer.bat` to execute it. This will perform the following st
 3. Paste the following URL: `rtsp://localhost:8554/mystream`.
 4. Click "Play" to start the stream.
 
+### Demo Video 
+ [Click here to view](https://youtu.be/TqGxsCsfXsw)
+   
+
 ## Troubleshooting
-- **FFmpeg Not Found**: Ensure FFmpeg is installed and added to your system's PATH.
-- **RTSP-SIMPLE-SERVER Not Found**: Ensure `mediamtx` is installed and added to your system's PATH.
+- **FFmpeg Not Found**: Ensure FFmpeg is present.
+- **RTSP-SIMPLE-SERVER Not Found**: Ensure `mediamtx` is accessible.
 - **VLC Player Not Launching**: Ensure VLC is installed correctly.
 
 For any issues, refer to the respective documentation of the tools used (FFmpeg, RTSP-SIMPLE-SERVER, VLC Player or Comment this repo :) ).
