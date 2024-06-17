@@ -3,6 +3,9 @@
 ## Overview
 This guide will help you set up a local RTSP server in just one minute. The server will use a local video file as its source and stream it in a loop. The output can be viewed using VLC Player.
 
+### Demo Video 
+ [Click here to view](https://youtu.be/TqGxsCsfXsw)
+
 ## Requirements
 - A video file (e.g., `BigBuckBunny.mp4`)
 - [RTSP-SIMPLE-SERVER (mediamtx)](https://github.com/bluenviron/mediamtx)
@@ -56,10 +59,7 @@ Double-click `StartServer.bat` to execute it. This will perform the following st
 2. Go to the "Network" tab.
 3. Paste the following URL: `rtsp://localhost:8554/mystream`.
 4. Click "Play" to start the stream.
-
-### Demo Video 
- [Click here to view](https://youtu.be/TqGxsCsfXsw)
-   
+  
 
 ## Troubleshooting
 - **FFmpeg Not Found**: Ensure FFmpeg is present.
